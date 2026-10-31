@@ -1,0 +1,948 @@
+[
+  {
+    "reportId": "CF-1001",
+    "title": "Large pothole on MG Road near brigade junction",
+    "text": "There is a very large pothole on MG Road just before the Brigade Junction signal. It is causing accidents and many vehicles have been damaged. The pothole is about 3 feet wide and very deep. Urgent repair needed.",
+    "categoryUser": "Road Damage",
+    "categoryAI": "Road Damage",
+    "categoryFinal": "Road Damage",
+    "summary": "Large pothole on MG Road near Brigade Junction causing vehicle damage and accidents. Urgent repair required.",
+    "location": { "lat": 12.9758, "lng": 77.6095, "address": "MG Road, near Brigade Junction, Bangalore" },
+    "status": "In Progress",
+    "assignee": "Road Maintenance Team",
+    "priority": {
+      "score": 58,
+      "label": "High",
+      "factors": [
+        { "name": "Safety Risk", "contribution": 15, "description": "Report indicates potential risk or urgent damage" },
+        { "name": "Category Severity", "contribution": 14, "description": "Road Damage category has a base severity of 14 points" },
+        { "name": "Duplicate Reports", "contribution": 9, "description": "3 similar reports found in the area" },
+        { "name": "Hotspot Cluster", "contribution": 10, "description": "Part of a geographic hotspot" },
+        { "name": "Report Age", "contribution": 10, "description": "Issue has been unresolved for 10 days" }
+      ]
+    },
+    "ai": { "source": "gemini", "safetyFlag": false, "confidence": 0.92, "reasonText": "Clear road damage complaint with urgency indicators" },
+    "duplicate": { "isDuplicate": false, "parentId": null, "similarity": 0, "reason": "" },
+    "clusterId": "CLU-001",
+    "isSeed": true
+  },
+  {
+    "reportId": "CF-1002",
+    "title": "Pothole causing accidents on MG Road",
+    "text": "Same large pothole on MG Road near Brigade. My scooter was damaged yesterday. This is the same issue as reported before. Need immediate attention as vehicles are swerving dangerously.",
+    "categoryUser": "Road Damage",
+    "categoryAI": "Road Damage",
+    "categoryFinal": "Road Damage",
+    "summary": "Recurring pothole complaint on MG Road near Brigade Junction causing vehicle damage. Duplicate of earlier report.",
+    "location": { "lat": 12.9762, "lng": 77.6098, "address": "MG Road, Brigade Junction area, Bangalore" },
+    "status": "Reviewed",
+    "assignee": null,
+    "priority": {
+      "score": 55,
+      "label": "High",
+      "factors": [
+        { "name": "Safety Risk", "contribution": 15, "description": "Report indicates potential risk or urgent damage" },
+        { "name": "Category Severity", "contribution": 14, "description": "Road Damage base severity" },
+        { "name": "Duplicate Reports", "contribution": 6, "description": "2 similar reports in area" },
+        { "name": "Hotspot Cluster", "contribution": 10, "description": "Part of geographic hotspot" },
+        { "name": "Report Age", "contribution": 10, "description": "Unresolved for 10 days" }
+      ]
+    },
+    "ai": { "source": "gemini", "safetyFlag": false, "confidence": 0.88, "reasonText": "Duplicate pothole report near same location" },
+    "duplicate": { "isDuplicate": true, "parentId": "CF-1001", "similarity": 0.78, "reason": "Found similar report CF-1001 within 50m with 78% text similarity" },
+    "clusterId": "CLU-001",
+    "isSeed": true
+  },
+  {
+    "reportId": "CF-1003",
+    "title": "Open manhole on Indiranagar 100ft Road - DANGER",
+    "text": "URGENT: There is an open manhole on 100 Feet Road, Indiranagar near the CMR clothing store. The manhole cover is completely missing. A child almost fell in this morning. This is a very dangerous safety hazard. Immediate action needed.",
+    "categoryUser": "Public Safety Hazard",
+    "categoryAI": "Public Safety Hazard",
+    "categoryFinal": "Public Safety Hazard",
+    "summary": "Open manhole with missing cover on Indiranagar 100ft Road poses immediate danger to pedestrians. Child near-miss incident reported.",
+    "location": { "lat": 12.9784, "lng": 77.6408, "address": "100 Feet Road, Indiranagar, Bangalore" },
+    "status": "Assigned",
+    "assignee": "Public Safety Unit",
+    "priority": {
+      "score": 85,
+      "label": "Critical",
+      "factors": [
+        { "name": "Safety Risk", "contribution": 35, "description": "Report contains safety hazard keywords (manhole, dangerous)" },
+        { "name": "Category Severity", "contribution": 25, "description": "Public Safety Hazard has highest base severity" },
+        { "name": "Duplicate Reports", "contribution": 6, "description": "2 similar reports in area" },
+        { "name": "Hotspot Cluster", "contribution": 10, "description": "Part of geographic hotspot" },
+        { "name": "Report Age", "contribution": 9, "description": "Unresolved for 9 days" }
+      ]
+    },
+    "ai": { "source": "gemini", "safetyFlag": true, "confidence": 0.97, "reasonText": "Critical safety hazard - open manhole with missing cover, near-miss incident" },
+    "duplicate": { "isDuplicate": false, "parentId": null, "similarity": 0, "reason": "" },
+    "clusterId": null,
+    "isSeed": true
+  },
+  {
+    "reportId": "CF-1004",
+    "title": "Waterlogging on Koramangala 5th block road",
+    "text": "The entire road in Koramangala 5th block near the Sony World signal is flooded with knee-deep water. Drainage is completely blocked. Vehicles are stuck and people cannot walk. The water has been standing for 3 days since last rain.",
+    "categoryUser": "Waterlogging/Drainage",
+    "categoryAI": "Waterlogging/Drainage",
+    "categoryFinal": "Waterlogging/Drainage",
+    "summary": "Severe waterlogging on Koramangala 5th block main road with knee-deep water standing for 3 days due to blocked drainage.",
+    "location": { "lat": 12.9352, "lng": 77.6245, "address": "5th Block, Koramangala, Bangalore" },
+    "status": "Submitted",
+    "assignee": null,
+    "priority": {
+      "score": 62,
+      "label": "High",
+      "factors": [
+        { "name": "Safety Risk", "contribution": 15, "description": "Flooding poses safety risk" },
+        { "name": "Category Severity", "contribution": 18, "description": "Waterlogging/Drainage base severity" },
+        { "name": "Duplicate Reports", "contribution": 9, "description": "3 similar waterlogging reports" },
+        { "name": "Hotspot Cluster", "contribution": 10, "description": "Part of Koramangala waterlogging hotspot" },
+        { "name": "Report Age", "contribution": 10, "description": "Standing water for 3+ days" }
+      ]
+    },
+    "ai": { "source": "gemini", "safetyFlag": false, "confidence": 0.94, "reasonText": "Severe flooding and drainage blockage" },
+    "duplicate": { "isDuplicate": false, "parentId": null, "similarity": 0, "reason": "" },
+    "clusterId": "CLU-002",
+    "isSeed": true
+  },
+  {
+    "reportId": "CF-1005",
+    "title": "Flooded streets in Koramangala 4th block",
+    "text": "Koramangala 4th block near the park has flooded again. The drainage system is completely blocked with garbage and the water is stagnant. This happens every time it rains. Children cannot go to school. Same problem as 5th block.",
+    "categoryUser": null,
+    "categoryAI": "Waterlogging/Drainage",
+    "categoryFinal": "Waterlogging/Drainage",
+    "summary": "Recurring waterlogging in Koramangala 4th block due to blocked drains. Affects school-going children and residents.",
+    "location": { "lat": 12.9341, "lng": 77.6231, "address": "4th Block, Koramangala, Bangalore" },
+    "status": "Submitted",
+    "assignee": null,
+    "priority": {
+      "score": 55,
+      "label": "High",
+      "factors": [
+        { "name": "Safety Risk", "contribution": 0, "description": "No immediate safety hazard" },
+        { "name": "Category Severity", "contribution": 18, "description": "Waterlogging/Drainage severity" },
+        { "name": "Duplicate Reports", "contribution": 9, "description": "3 related reports in area" },
+        { "name": "Hotspot Cluster", "contribution": 10, "description": "Koramangala waterlogging hotspot" },
+        { "name": "Report Age", "contribution": 8, "description": "Unresolved for 8 days" }
+      ]
+    },
+    "ai": { "source": "fallback", "safetyFlag": false, "confidence": 0.72, "reasonText": "Classified using keyword matching" },
+    "duplicate": { "isDuplicate": true, "parentId": "CF-1004", "similarity": 0.65, "reason": "Found similar waterlogging report CF-1004 within 140m with 65% text similarity" },
+    "clusterId": "CLU-002",
+    "isSeed": true
+  },
+  {
+    "reportId": "CF-1006",
+    "title": "Drainage overflow near Koramangala market",
+    "text": "The drainage near Koramangala market is overflowing with sewage water. The smell is unbearable and the water is mixing with the road. Health hazard. Garbage is blocking the drain. This has been happening for a week.",
+    "categoryUser": "Waterlogging/Drainage",
+    "categoryAI": "Waterlogging/Drainage",
+    "categoryFinal": "Waterlogging/Drainage",
+    "summary": "Sewage overflow near Koramangala market creating health hazard. Drain blocked by garbage causing road flooding for over a week.",
+    "location": { "lat": 12.9358, "lng": 77.6262, "address": "Koramangala Market area, Bangalore" },
+    "status": "Reviewed",
+    "assignee": null,
+    "priority": {
+      "score": 58,
+      "label": "High",
+      "factors": [
+        { "name": "Safety Risk", "contribution": 15, "description": "Health hazard from sewage overflow" },
+        { "name": "Category Severity", "contribution": 18, "description": "Waterlogging/Drainage severity" },
+        { "name": "Duplicate Reports", "contribution": 9, "description": "Multiple reports in cluster" },
+        { "name": "Hotspot Cluster", "contribution": 10, "description": "Koramangala waterlogging hotspot" },
+        { "name": "Report Age", "contribution": 6, "description": "Ongoing for 6 days" }
+      ]
+    },
+    "ai": { "source": "gemini", "safetyFlag": false, "confidence": 0.89, "reasonText": "Drainage overflow with health hazard indication" },
+    "duplicate": { "isDuplicate": true, "parentId": "CF-1004", "similarity": 0.62, "reason": "Found similar drainage report CF-1004 within 130m with 62% text similarity" },
+    "clusterId": "CLU-002",
+    "isSeed": true
+  },
+  {
+    "reportId": "CF-1007",
+    "title": "Street lights not working on Residency Road",
+    "text": "All the street lights on Residency Road between Richmond Circle and Brigade Road are not working. The road is completely dark at night. This is very unsafe for pedestrians and vehicles. Please fix urgently as there have been chain snatchings in the dark.",
+    "categoryUser": "Streetlight",
+    "categoryAI": "Streetlight",
+    "categoryFinal": "Streetlight",
+    "summary": "Multiple streetlights non-functional on Residency Road creating darkness and safety risk. Reported chain-snatching incidents in affected area.",
+    "location": { "lat": 12.9709, "lng": 77.6001, "address": "Residency Road, near Richmond Circle, Bangalore" },
+    "status": "Assigned",
+    "assignee": "Electrical Division",
+    "priority": {
+      "score": 60,
+      "label": "High",
+      "factors": [
+        { "name": "Safety Risk", "contribution": 35, "description": "Safety hazard - dark road with reported crime" },
+        { "name": "Category Severity", "contribution": 10, "description": "Streetlight base severity" },
+        { "name": "Duplicate Reports", "contribution": 6, "description": "2 similar reports" },
+        { "name": "Hotspot Cluster", "contribution": 0, "description": "Not in hotspot" },
+        { "name": "Report Age", "contribution": 9, "description": "Unresolved for 9 days" }
+      ]
+    },
+    "ai": { "source": "gemini", "safetyFlag": true, "confidence": 0.91, "reasonText": "Streetlight outage with safety implications and crime risk" },
+    "duplicate": { "isDuplicate": false, "parentId": null, "similarity": 0, "reason": "" },
+    "clusterId": null,
+    "isSeed": true
+  },
+  {
+    "reportId": "CF-1008",
+    "title": "Garbage not collected for 2 weeks in HSR Layout",
+    "text": "Garbage has not been collected in HSR Layout sector 1 for the past 2 weeks. The garbage is overflowing from the bins and is being spread by stray dogs. There are rats. The smell is terrible. Please send the garbage truck urgently.",
+    "categoryUser": "Garbage/Waste",
+    "categoryAI": "Garbage/Waste",
+    "categoryFinal": "Garbage/Waste",
+    "summary": "Two weeks of uncollected garbage in HSR Layout Sector 1 causing health hazard with rodent infestation and overflowing bins.",
+    "location": { "lat": 12.9147, "lng": 77.6473, "address": "HSR Layout, Sector 1, Bangalore" },
+    "status": "Resolved",
+    "assignee": "Sanitation Dept",
+    "priority": {
+      "score": 32,
+      "label": "Low",
+      "factors": [
+        { "name": "Safety Risk", "contribution": 0, "description": "No immediate safety hazard" },
+        { "name": "Category Severity", "contribution": 8, "description": "Garbage/Waste base severity" },
+        { "name": "Duplicate Reports", "contribution": 9, "description": "3 related garbage complaints" },
+        { "name": "Hotspot Cluster", "contribution": 0, "description": "Not in hotspot" },
+        { "name": "Report Age", "contribution": 15, "description": "Issue unresolved for 15+ days" }
+      ]
+    },
+    "ai": { "source": "gemini", "safetyFlag": false, "confidence": 0.93, "reasonText": "Garbage collection failure with health implications" },
+    "duplicate": { "isDuplicate": false, "parentId": null, "similarity": 0, "reason": "" },
+    "clusterId": null,
+    "isSeed": true
+  },
+  {
+    "reportId": "CF-1009",
+    "title": "No water supply in Malleshwaram for 3 days",
+    "text": "Water supply has been completely cut off in Malleshwaram 18th cross for the last 3 days. No water in pipes at all. We are forced to buy water at high cost. Many families with elderly people and children are suffering. BWSSB is not responding to calls.",
+    "categoryUser": "Water Supply",
+    "categoryAI": "Water Supply",
+    "categoryFinal": "Water Supply",
+    "summary": "Complete water supply disruption in Malleshwaram 18th Cross for 3 days. Multiple households affected, BWSSB unresponsive.",
+    "location": { "lat": 13.0035, "lng": 77.5710, "address": "18th Cross, Malleshwaram, Bangalore" },
+    "status": "Submitted",
+    "assignee": null,
+    "priority": {
+      "score": 42,
+      "label": "Medium",
+      "factors": [
+        { "name": "Safety Risk", "contribution": 15, "description": "Health risk from water scarcity" },
+        { "name": "Category Severity", "contribution": 10, "description": "Water Supply severity" },
+        { "name": "Duplicate Reports", "contribution": 9, "description": "3 similar reports in area" },
+        { "name": "Hotspot Cluster", "contribution": 0, "description": "Not in hotspot" },
+        { "name": "Report Age", "contribution": 8, "description": "Unresolved for 8 days" }
+      ]
+    },
+    "ai": { "source": "gemini", "safetyFlag": false, "confidence": 0.88, "reasonText": "Water supply disruption affecting multiple households" },
+    "duplicate": { "isDuplicate": false, "parentId": null, "similarity": 0, "reason": "" },
+    "clusterId": null,
+    "isSeed": true
+  },
+  {
+    "reportId": "CF-1010",
+    "title": "Exposed live wire near Jayanagar bus stop",
+    "text": "There is a dangling live electric wire near the Jayanagar 4th block bus stop. The wire is hanging low and children could touch it. Yesterday a dog was electrocuted near this spot. This is extremely dangerous. BESCOM must act immediately.",
+    "categoryUser": "Electricity/Power",
+    "categoryAI": "Public Safety Hazard",
+    "categoryFinal": "Public Safety Hazard",
+    "summary": "Dangling live electric wire at Jayanagar 4th Block bus stop. Animal electrocution occurred. Immediate BESCOM intervention required.",
+    "location": { "lat": 12.9254, "lng": 77.5838, "address": "4th Block Bus Stop, Jayanagar, Bangalore" },
+    "status": "Assigned",
+    "assignee": "Electrical Division",
+    "priority": {
+      "score": 90,
+      "label": "Critical",
+      "factors": [
+        { "name": "Safety Risk", "contribution": 35, "description": "Live wire - immediate electrocution hazard" },
+        { "name": "Category Severity", "contribution": 25, "description": "Public Safety Hazard - highest severity" },
+        { "name": "Duplicate Reports", "contribution": 6, "description": "2 related reports" },
+        { "name": "Hotspot Cluster", "contribution": 0, "description": "Not in hotspot" },
+        { "name": "Report Age", "contribution": 12, "description": "Unresolved for 12 days" }
+      ]
+    },
+    "ai": { "source": "gemini", "safetyFlag": true, "confidence": 0.98, "reasonText": "Critical electrical hazard - live wire with animal casualty reported" },
+    "duplicate": { "isDuplicate": false, "parentId": null, "similarity": 0, "reason": "" },
+    "clusterId": null,
+    "isSeed": true
+  },
+  {
+    "reportId": "CF-1011",
+    "title": "Broken road on Sarjapur outer ring road",
+    "text": "The road on Sarjapur ORR near Wipro junction has multiple large potholes and the tarmac is completely broken. Heavy vehicles have broken the road surface and it's impossible to drive without risking tyre damage. This stretch needs immediate resurfacing.",
+    "categoryUser": "Road Damage",
+    "categoryAI": "Road Damage",
+    "categoryFinal": "Road Damage",
+    "summary": "Multiple large potholes and broken tarmac on Sarjapur ORR near Wipro junction. Heavy traffic damage requires full road resurfacing.",
+    "location": { "lat": 12.9141, "lng": 77.6786, "address": "Sarjapur Outer Ring Road, Wipro Junction, Bangalore" },
+    "status": "Submitted",
+    "assignee": null,
+    "priority": {
+      "score": 38,
+      "label": "Medium",
+      "factors": [
+        { "name": "Safety Risk", "contribution": 15, "description": "Dangerous road conditions" },
+        { "name": "Category Severity", "contribution": 14, "description": "Road Damage severity" },
+        { "name": "Duplicate Reports", "contribution": 0, "description": "No duplicates found" },
+        { "name": "Hotspot Cluster", "contribution": 0, "description": "Not in hotspot" },
+        { "name": "Report Age", "contribution": 9, "description": "Unresolved for 9 days" }
+      ]
+    },
+    "ai": { "source": "gemini", "safetyFlag": false, "confidence": 0.90, "reasonText": "Road damage on major route" },
+    "duplicate": { "isDuplicate": false, "parentId": null, "similarity": 0, "reason": "" },
+    "clusterId": null,
+    "isSeed": true
+  },
+  {
+    "reportId": "CF-1012",
+    "title": "Overflowing dustbin in Whitefield main road",
+    "text": "The BBMP dustbin on Whitefield main road near Hope Farm junction is overflowing. Garbage is scattered all over the road. The sanitation workers have not visited for over a week. Cows and dogs are spreading garbage on the road.",
+    "categoryUser": null,
+    "categoryAI": "Garbage/Waste",
+    "categoryFinal": "Garbage/Waste",
+    "summary": "BBMP dustbin overflowing on Whitefield Main Road near Hope Farm. Garbage spread by stray animals. No collection for 7+ days.",
+    "location": { "lat": 12.9698, "lng": 77.7499, "address": "Whitefield Main Road, Hope Farm, Bangalore" },
+    "status": "Submitted",
+    "assignee": null,
+    "priority": {
+      "score": 20,
+      "label": "Low",
+      "factors": [
+        { "name": "Safety Risk", "contribution": 0, "description": "No immediate safety hazard" },
+        { "name": "Category Severity", "contribution": 8, "description": "Garbage/Waste base severity" },
+        { "name": "Duplicate Reports", "contribution": 3, "description": "1 similar report in area" },
+        { "name": "Hotspot Cluster", "contribution": 0, "description": "Not in hotspot" },
+        { "name": "Report Age", "contribution": 9, "description": "Unresolved for 9 days" }
+      ]
+    },
+    "ai": { "source": "fallback", "safetyFlag": false, "confidence": 0.68, "reasonText": "Garbage keywords matched" },
+    "duplicate": { "isDuplicate": false, "parentId": null, "similarity": 0, "reason": "" },
+    "clusterId": null,
+    "isSeed": true
+  },
+  {
+    "reportId": "CF-1013",
+    "title": "Broken streetlight on Cunningham Road",
+    "text": "The streetlight on Cunningham Road near the Leela Palace hotel is broken. The area is dark and unsafe at night. Pedestrians are walking in the dark. This has been reported earlier also but not fixed.",
+    "categoryUser": "Streetlight",
+    "categoryAI": "Streetlight",
+    "categoryFinal": "Streetlight",
+    "summary": "Non-functional streetlight on Cunningham Road near Leela Palace creating unsafe pedestrian conditions at night.",
+    "location": { "lat": 12.9876, "lng": 77.5978, "address": "Cunningham Road, near Leela Palace, Bangalore" },
+    "status": "Reviewed",
+    "assignee": null,
+    "priority": {
+      "score": 25,
+      "label": "Low",
+      "factors": [
+        { "name": "Safety Risk", "contribution": 0, "description": "Indirect safety concern" },
+        { "name": "Category Severity", "contribution": 10, "description": "Streetlight severity" },
+        { "name": "Duplicate Reports", "contribution": 3, "description": "1 prior report" },
+        { "name": "Hotspot Cluster", "contribution": 0, "description": "Not in hotspot" },
+        { "name": "Report Age", "contribution": 12, "description": "Unresolved for 12 days" }
+      ]
+    },
+    "ai": { "source": "gemini", "safetyFlag": false, "confidence": 0.85, "reasonText": "Streetlight outage" },
+    "duplicate": { "isDuplicate": false, "parentId": null, "similarity": 0, "reason": "" },
+    "clusterId": null,
+    "isSeed": true
+  },
+  {
+    "reportId": "CF-1014",
+    "title": "Waterlogging near Koramangala 6th block",
+    "text": "Heavy waterlogging on 6th block Koramangala near the old Jyoti Nivas college. Water level is ankle deep and the drain is completely blocked. This area floods every monsoon but no permanent solution has been given.",
+    "categoryUser": "Waterlogging/Drainage",
+    "categoryAI": "Waterlogging/Drainage",
+    "categoryFinal": "Waterlogging/Drainage",
+    "summary": "Ankle-deep waterlogging at Koramangala 6th Block near Jyoti Nivas College due to blocked drains. Recurring monsoon flooding issue.",
+    "location": { "lat": 12.9365, "lng": 77.6271, "address": "6th Block, Koramangala, Bangalore" },
+    "status": "Submitted",
+    "assignee": null,
+    "priority": {
+      "score": 52,
+      "label": "Medium",
+      "factors": [
+        { "name": "Safety Risk", "contribution": 0, "description": "No immediate safety hazard" },
+        { "name": "Category Severity", "contribution": 18, "description": "Waterlogging severity" },
+        { "name": "Duplicate Reports", "contribution": 9, "description": "Multiple waterlogging reports in area" },
+        { "name": "Hotspot Cluster", "contribution": 10, "description": "Part of Koramangala hotspot" },
+        { "name": "Report Age", "contribution": 15, "description": "15+ days unresolved" }
+      ]
+    },
+    "ai": { "source": "gemini", "safetyFlag": false, "confidence": 0.91, "reasonText": "Recurring waterlogging issue" },
+    "duplicate": { "isDuplicate": true, "parentId": "CF-1004", "similarity": 0.70, "reason": "Similar waterlogging report in Koramangala area within 150m" },
+    "clusterId": "CLU-002",
+    "isSeed": true
+  },
+  {
+    "reportId": "CF-1015",
+    "title": "Road broken near Electronic City flyover",
+    "text": "The service road near Electronic City flyover phase 1 has huge craters. The road has completely broken down due to heavy trucks. Multiple vehicle breakdowns happen daily here. Need urgent resurfacing.",
+    "categoryUser": "Road Damage",
+    "categoryAI": "Road Damage",
+    "categoryFinal": "Road Damage",
+    "summary": "Severe road damage with craters on service road near Electronic City Phase 1 flyover due to heavy truck traffic.",
+    "location": { "lat": 12.8457, "lng": 77.6769, "address": "Electronic City Phase 1, Service Road, Bangalore" },
+    "status": "Submitted",
+    "assignee": null,
+    "priority": {
+      "score": 44,
+      "label": "Medium",
+      "factors": [
+        { "name": "Safety Risk", "contribution": 15, "description": "Damaged road causing vehicle breakdowns" },
+        { "name": "Category Severity", "contribution": 14, "description": "Road Damage severity" },
+        { "name": "Duplicate Reports", "contribution": 6, "description": "2 related road complaints" },
+        { "name": "Hotspot Cluster", "contribution": 0, "description": "Not in hotspot" },
+        { "name": "Report Age", "contribution": 9, "description": "Unresolved for 9 days" }
+      ]
+    },
+    "ai": { "source": "gemini", "safetyFlag": false, "confidence": 0.87, "reasonText": "Major road damage on industrial route" },
+    "duplicate": { "isDuplicate": false, "parentId": null, "similarity": 0, "reason": "" },
+    "clusterId": null,
+    "isSeed": true
+  },
+  {
+    "reportId": "CF-1016",
+    "title": "Power outage in Rajajinagar for 2 days",
+    "text": "There has been no electricity in Rajajinagar 2nd block for the past 2 days. The transformer seems to have failed. BESCOM has not sent any team. Elderly residents and those with medical equipment are badly affected.",
+    "categoryUser": "Electricity/Power",
+    "categoryAI": "Electricity/Power",
+    "categoryFinal": "Electricity/Power",
+    "summary": "48-hour power outage in Rajajinagar 2nd Block due to suspected transformer failure. Vulnerable residents including those on medical equipment affected.",
+    "location": { "lat": 12.9957, "lng": 77.5481, "address": "2nd Block, Rajajinagar, Bangalore" },
+    "status": "Reviewed",
+    "assignee": null,
+    "priority": {
+      "score": 36,
+      "label": "Medium",
+      "factors": [
+        { "name": "Safety Risk", "contribution": 15, "description": "Medical equipment users at risk" },
+        { "name": "Category Severity", "contribution": 12, "description": "Electricity/Power severity" },
+        { "name": "Duplicate Reports", "contribution": 0, "description": "No duplicates" },
+        { "name": "Hotspot Cluster", "contribution": 0, "description": "Not in hotspot" },
+        { "name": "Report Age", "contribution": 9, "description": "Ongoing for 9 days" }
+      ]
+    },
+    "ai": { "source": "gemini", "safetyFlag": false, "confidence": 0.90, "reasonText": "Extended power outage with medical vulnerability" },
+    "duplicate": { "isDuplicate": false, "parentId": null, "similarity": 0, "reason": "" },
+    "clusterId": null,
+    "isSeed": true
+  },
+  {
+    "reportId": "CF-1017",
+    "title": "Garbage dumping near Bellandur lake",
+    "text": "People are illegally dumping construction debris and garbage near Bellandur lake. This is causing massive pollution to the lake which is already in bad condition. BBMP must take action and fine the violators.",
+    "categoryUser": "Garbage/Waste",
+    "categoryAI": "Garbage/Waste",
+    "categoryFinal": "Garbage/Waste",
+    "summary": "Illegal construction debris and garbage dumping near Bellandur lake causing environmental pollution.",
+    "location": { "lat": 12.9299, "lng": 77.6848, "address": "Near Bellandur Lake, Bangalore" },
+    "status": "Submitted",
+    "assignee": null,
+    "priority": {
+      "score": 18,
+      "label": "Low",
+      "factors": [
+        { "name": "Safety Risk", "contribution": 0, "description": "No immediate physical danger" },
+        { "name": "Category Severity", "contribution": 8, "description": "Garbage/Waste severity" },
+        { "name": "Duplicate Reports", "contribution": 0, "description": "No duplicates" },
+        { "name": "Hotspot Cluster", "contribution": 0, "description": "Not in hotspot" },
+        { "name": "Report Age", "contribution": 10, "description": "Ongoing issue" }
+      ]
+    },
+    "ai": { "source": "gemini", "safetyFlag": false, "confidence": 0.82, "reasonText": "Environmental garbage dumping" },
+    "duplicate": { "isDuplicate": false, "parentId": null, "similarity": 0, "reason": "" },
+    "clusterId": null,
+    "isSeed": true
+  },
+  {
+    "reportId": "CF-1018",
+    "title": "Road damage on MG Road near Trinity circle",
+    "text": "The road on MG Road near Trinity Circle metro station has a series of potholes making it very dangerous to drive. Metro construction vehicles have damaged the road badly. The surface is uneven and causes accidents.",
+    "categoryUser": "Road Damage",
+    "categoryAI": "Road Damage",
+    "categoryFinal": "Road Damage",
+    "summary": "Metro construction-related road damage near Trinity Circle on MG Road creating dangerous driving conditions.",
+    "location": { "lat": 12.9763, "lng": 77.6119, "address": "MG Road, Trinity Circle, Bangalore" },
+    "status": "In Progress",
+    "assignee": "Road Maintenance Team",
+    "priority": {
+      "score": 56,
+      "label": "High",
+      "factors": [
+        { "name": "Safety Risk", "contribution": 15, "description": "Accident-prone road damage" },
+        { "name": "Category Severity", "contribution": 14, "description": "Road Damage severity" },
+        { "name": "Duplicate Reports", "contribution": 9, "description": "Multiple MG Road complaints" },
+        { "name": "Hotspot Cluster", "contribution": 10, "description": "MG Road hotspot" },
+        { "name": "Report Age", "contribution": 8, "description": "8 days unresolved" }
+      ]
+    },
+    "ai": { "source": "gemini", "safetyFlag": false, "confidence": 0.93, "reasonText": "Road damage near busy metro junction" },
+    "duplicate": { "isDuplicate": true, "parentId": "CF-1001", "similarity": 0.64, "reason": "Similar road damage report on MG Road within 150m" },
+    "clusterId": "CLU-001",
+    "isSeed": true
+  },
+  {
+    "reportId": "CF-1019",
+    "title": "Water pipe burst in Indiranagar",
+    "text": "A water main pipe has burst on CMH Road, Indiranagar near the Manipal hospital. Water is gushing and the road is flooded. BWSSB needs to come immediately and fix this. Water supply to the area is also disrupted.",
+    "categoryUser": "Water Supply",
+    "categoryAI": "Water Supply",
+    "categoryFinal": "Water Supply",
+    "summary": "Water main pipe burst on CMH Road near Manipal Hospital causing road flooding and area-wide supply disruption.",
+    "location": { "lat": 12.9798, "lng": 77.6396, "address": "CMH Road, Indiranagar, Bangalore" },
+    "status": "Assigned",
+    "assignee": "Water Supply Board",
+    "priority": {
+      "score": 48,
+      "label": "Medium",
+      "factors": [
+        { "name": "Safety Risk", "contribution": 15, "description": "Flooding risk from burst pipe" },
+        { "name": "Category Severity", "contribution": 10, "description": "Water Supply severity" },
+        { "name": "Duplicate Reports", "contribution": 6, "description": "2 related water complaints" },
+        { "name": "Hotspot Cluster", "contribution": 0, "description": "Not in hotspot" },
+        { "name": "Report Age", "contribution": 7, "description": "7 days unresolved" }
+      ]
+    },
+    "ai": { "source": "gemini", "safetyFlag": false, "confidence": 0.91, "reasonText": "Water main burst causing flooding" },
+    "duplicate": { "isDuplicate": false, "parentId": null, "similarity": 0, "reason": "" },
+    "clusterId": null,
+    "isSeed": true
+  },
+  {
+    "reportId": "CF-1020",
+    "title": "Potholes on MG Road causing accidents",
+    "text": "Multiple potholes between Trinity metro and Halasuru metro on MG Road are causing daily accidents. I saw a bike rider fall today. These need to be filled urgently before someone is seriously hurt.",
+    "categoryUser": "Road Damage",
+    "categoryAI": "Road Damage",
+    "categoryFinal": "Road Damage",
+    "summary": "Multiple potholes on MG Road between Trinity and Halasuru metro stations causing accidents. Bike rider fall witnessed today.",
+    "location": { "lat": 12.9771, "lng": 77.6131, "address": "MG Road, between Trinity and Halasuru Metro, Bangalore" },
+    "status": "Reviewed",
+    "assignee": null,
+    "priority": {
+      "score": 60,
+      "label": "High",
+      "factors": [
+        { "name": "Safety Risk", "contribution": 15, "description": "Accidents already occurring" },
+        { "name": "Category Severity", "contribution": 14, "description": "Road Damage severity" },
+        { "name": "Duplicate Reports", "contribution": 9, "description": "Multiple MG Road road complaints" },
+        { "name": "Hotspot Cluster", "contribution": 10, "description": "MG Road hotspot cluster" },
+        { "name": "Report Age", "contribution": 12, "description": "12 days unresolved" }
+      ]
+    },
+    "ai": { "source": "gemini", "safetyFlag": false, "confidence": 0.94, "reasonText": "Accident-causing potholes on major road" },
+    "duplicate": { "isDuplicate": true, "parentId": "CF-1001", "similarity": 0.72, "reason": "Same MG Road pothole cluster within 150m" },
+    "clusterId": "CLU-001",
+    "isSeed": true
+  },
+  {
+    "reportId": "CF-1021",
+    "title": "Street lights all broken in JP Nagar 7th phase",
+    "text": "The entire stretch of street lights in JP Nagar 7th phase main road are not working. It's pitch dark every night. Women are afraid to walk. Accidents are happening on this stretch daily. BESCOM please fix this.",
+    "categoryUser": "Streetlight",
+    "categoryAI": "Streetlight",
+    "categoryFinal": "Streetlight",
+    "summary": "Complete streetlight failure across JP Nagar 7th Phase main road. Women's safety affected, daily accidents reported.",
+    "location": { "lat": 12.8895, "lng": 77.5967, "address": "JP Nagar 7th Phase, Main Road, Bangalore" },
+    "status": "Submitted",
+    "assignee": null,
+    "priority": {
+      "score": 50,
+      "label": "Medium",
+      "factors": [
+        { "name": "Safety Risk", "contribution": 35, "description": "Safety hazard - complete darkness with accidents" },
+        { "name": "Category Severity", "contribution": 10, "description": "Streetlight severity" },
+        { "name": "Duplicate Reports", "contribution": 0, "description": "No duplicates" },
+        { "name": "Hotspot Cluster", "contribution": 0, "description": "Not in hotspot" },
+        { "name": "Report Age", "contribution": 5, "description": "5 days unresolved" }
+      ]
+    },
+    "ai": { "source": "fallback", "safetyFlag": true, "confidence": 0.75, "reasonText": "Safety keywords detected" },
+    "duplicate": { "isDuplicate": false, "parentId": null, "similarity": 0, "reason": "" },
+    "clusterId": null,
+    "isSeed": true
+  },
+  {
+    "reportId": "CF-1022",
+    "title": "Garbage pile on Bannerghatta Road",
+    "text": "A huge pile of garbage has accumulated near Bannerghatta Road entrance to BTM Layout. The pile has been growing for 3 weeks. BBMP is not clearing it. Mosquito breeding is happening and disease outbreak feared.",
+    "categoryUser": null,
+    "categoryAI": "Garbage/Waste",
+    "categoryFinal": "Garbage/Waste",
+    "summary": "Large garbage accumulation near Bannerghatta Road BTM Layout entrance for 3 weeks. Mosquito breeding risk and potential disease outbreak.",
+    "location": { "lat": 12.9115, "lng": 77.6073, "address": "Bannerghatta Road, BTM Layout entrance, Bangalore" },
+    "status": "Submitted",
+    "assignee": null,
+    "priority": {
+      "score": 22,
+      "label": "Low",
+      "factors": [
+        { "name": "Safety Risk", "contribution": 0, "description": "Health risk but not immediate physical danger" },
+        { "name": "Category Severity", "contribution": 8, "description": "Garbage/Waste severity" },
+        { "name": "Duplicate Reports", "contribution": 0, "description": "No duplicates" },
+        { "name": "Hotspot Cluster", "contribution": 0, "description": "Not in hotspot" },
+        { "name": "Report Age", "contribution": 14, "description": "14 days unresolved" }
+      ]
+    },
+    "ai": { "source": "fallback", "safetyFlag": false, "confidence": 0.70, "reasonText": "Garbage keywords matched" },
+    "duplicate": { "isDuplicate": false, "parentId": null, "similarity": 0, "reason": "" },
+    "clusterId": null,
+    "isSeed": true
+  },
+  {
+    "reportId": "CF-1023",
+    "title": "Unsafe building collapse risk near Shivajinagar",
+    "text": "An old abandoned building near Shivajinagar bus stand has walls that look like they will collapse any time. Bricks are falling on the footpath below. This is a public safety hazard. Corporation must demolish or secure it immediately.",
+    "categoryUser": "Public Safety Hazard",
+    "categoryAI": "Public Safety Hazard",
+    "categoryFinal": "Public Safety Hazard",
+    "summary": "Structurally unsafe abandoned building near Shivajinagar bus stand with falling bricks. Immediate demolition or securing required.",
+    "location": { "lat": 12.9876, "lng": 77.5973, "address": "Near Shivajinagar Bus Stand, Bangalore" },
+    "status": "Assigned",
+    "assignee": "Public Safety Unit",
+    "priority": {
+      "score": 82,
+      "label": "Critical",
+      "factors": [
+        { "name": "Safety Risk", "contribution": 35, "description": "Building collapse imminent - falling bricks" },
+        { "name": "Category Severity", "contribution": 25, "description": "Public Safety Hazard highest severity" },
+        { "name": "Duplicate Reports", "contribution": 3, "description": "1 related report" },
+        { "name": "Hotspot Cluster", "contribution": 0, "description": "Not in hotspot" },
+        { "name": "Report Age", "contribution": 7, "description": "7 days unresolved" }
+      ]
+    },
+    "ai": { "source": "gemini", "safetyFlag": true, "confidence": 0.96, "reasonText": "Structural collapse risk with falling debris" },
+    "duplicate": { "isDuplicate": false, "parentId": null, "similarity": 0, "reason": "" },
+    "clusterId": null,
+    "isSeed": true
+  },
+  {
+    "reportId": "CF-1024",
+    "title": "Waterlogging in Koramangala causing traffic jams",
+    "text": "The waterlogging on 80 feet road Koramangala is causing massive traffic jams. The water level is high and even cars are getting stuck. This area needs a proper drainage system. Happens every year during monsoon.",
+    "categoryUser": "Waterlogging/Drainage",
+    "categoryAI": "Waterlogging/Drainage",
+    "categoryFinal": "Waterlogging/Drainage",
+    "summary": "80 feet road Koramangala waterlogging causing major traffic disruption with vehicles stalling. Recurring annual monsoon problem requiring permanent drainage fix.",
+    "location": { "lat": 12.9348, "lng": 77.6218, "address": "80 Feet Road, Koramangala, Bangalore" },
+    "status": "Submitted",
+    "assignee": null,
+    "priority": {
+      "score": 56,
+      "label": "High",
+      "factors": [
+        { "name": "Safety Risk", "contribution": 15, "description": "Vehicles stalling in deep water" },
+        { "name": "Category Severity", "contribution": 18, "description": "Waterlogging severity" },
+        { "name": "Duplicate Reports", "contribution": 9, "description": "Part of Koramangala cluster" },
+        { "name": "Hotspot Cluster", "contribution": 10, "description": "Koramangala waterlogging hotspot" },
+        { "name": "Report Age", "contribution": 4, "description": "4 days unresolved" }
+      ]
+    },
+    "ai": { "source": "gemini", "safetyFlag": false, "confidence": 0.92, "reasonText": "Severe waterlogging causing traffic disruption" },
+    "duplicate": { "isDuplicate": true, "parentId": "CF-1004", "similarity": 0.68, "reason": "Similar waterlogging report in Koramangala within 140m" },
+    "clusterId": "CLU-002",
+    "isSeed": true
+  },
+  {
+    "reportId": "CF-1025",
+    "title": "Broken footpath in Jayanagar 9th block",
+    "text": "The footpath on Jayanagar 9th block near the BMTC depot has completely broken. Large slabs are upturned creating tripping hazards. Elderly people and children are falling. The footpath needs urgent repair.",
+    "categoryUser": "Road Damage",
+    "categoryAI": "Road Damage",
+    "categoryFinal": "Road Damage",
+    "summary": "Severely damaged footpath near Jayanagar BMTC depot with upturned slabs. Multiple falls by elderly and children reported.",
+    "location": { "lat": 12.9289, "lng": 77.5871, "address": "9th Block, Jayanagar, near BMTC Depot, Bangalore" },
+    "status": "Submitted",
+    "assignee": null,
+    "priority": {
+      "score": 35,
+      "label": "Medium",
+      "factors": [
+        { "name": "Safety Risk", "contribution": 15, "description": "Tripping hazard for vulnerable populations" },
+        { "name": "Category Severity", "contribution": 14, "description": "Road Damage severity" },
+        { "name": "Duplicate Reports", "contribution": 0, "description": "No duplicates" },
+        { "name": "Hotspot Cluster", "contribution": 0, "description": "Not in hotspot" },
+        { "name": "Report Age", "contribution": 6, "description": "6 days unresolved" }
+      ]
+    },
+    "ai": { "source": "gemini", "safetyFlag": false, "confidence": 0.86, "reasonText": "Footpath damage with fall risk" },
+    "duplicate": { "isDuplicate": false, "parentId": null, "similarity": 0, "reason": "" },
+    "clusterId": null,
+    "isSeed": true
+  },
+  {
+    "reportId": "CF-1026",
+    "title": "Water supply problem in Yelahanka",
+    "text": "Water supply in Yelahanka new town is very irregular. We get water only for 30 minutes every 2 days. The pressure is very low. BWSSB is not fixing the issue despite multiple complaints.",
+    "categoryUser": "Water Supply",
+    "categoryAI": "Water Supply",
+    "categoryFinal": "Water Supply",
+    "summary": "Severely irregular water supply in Yelahanka New Town. Only 30 minutes supply every 2 days despite BWSSB complaints.",
+    "location": { "lat": 13.0995, "lng": 77.5963, "address": "Yelahanka New Town, Bangalore" },
+    "status": "Submitted",
+    "assignee": null,
+    "priority": {
+      "score": 28,
+      "label": "Low",
+      "factors": [
+        { "name": "Safety Risk", "contribution": 0, "description": "No immediate hazard" },
+        { "name": "Category Severity", "contribution": 10, "description": "Water Supply severity" },
+        { "name": "Duplicate Reports", "contribution": 3, "description": "1 similar complaint" },
+        { "name": "Hotspot Cluster", "contribution": 0, "description": "Not in hotspot" },
+        { "name": "Report Age", "contribution": 15, "description": "Persistent long-term issue" }
+      ]
+    },
+    "ai": { "source": "fallback", "safetyFlag": false, "confidence": 0.72, "reasonText": "Water supply keywords matched" },
+    "duplicate": { "isDuplicate": false, "parentId": null, "similarity": 0, "reason": "" },
+    "clusterId": null,
+    "isSeed": true
+  },
+  {
+    "reportId": "CF-1027",
+    "title": "Pothole on Brigade Road near the Amoeba club",
+    "text": "There's a dangerous pothole on Brigade Road near the Amoeba club entrance. Many bikes have fallen here. The pothole is around 2 feet wide and was there since last 2 months. BBMP please fill it up.",
+    "categoryUser": "Road Damage",
+    "categoryAI": "Road Damage",
+    "categoryFinal": "Road Damage",
+    "summary": "2-foot wide pothole on Brigade Road near Amoeba club present for 2 months causing regular bike falls.",
+    "location": { "lat": 12.9753, "lng": 77.6070, "address": "Brigade Road, near Amoeba Club, Bangalore" },
+    "status": "Resolved",
+    "assignee": "Road Maintenance Team",
+    "priority": {
+      "score": 38,
+      "label": "Medium",
+      "factors": [
+        { "name": "Safety Risk", "contribution": 15, "description": "Bike falls reported" },
+        { "name": "Category Severity", "contribution": 14, "description": "Road Damage severity" },
+        { "name": "Duplicate Reports", "contribution": 0, "description": "No duplicates" },
+        { "name": "Hotspot Cluster", "contribution": 0, "description": "Not in hotspot" },
+        { "name": "Report Age", "contribution": 9, "description": "9 days unresolved" }
+      ]
+    },
+    "ai": { "source": "gemini", "safetyFlag": false, "confidence": 0.88, "reasonText": "Pothole with fall incidents" },
+    "duplicate": { "isDuplicate": false, "parentId": null, "similarity": 0, "reason": "" },
+    "clusterId": null,
+    "isSeed": true
+  },
+  {
+    "reportId": "CF-1028",
+    "title": "Garbage collection stopped in Marathahalli",
+    "text": "BBMP garbage collection has stopped in Marathahalli 7th sector for the past 10 days. The bins are overflowing and garbage is spilling onto the road. Residents have tried calling but no response.",
+    "categoryUser": "Garbage/Waste",
+    "categoryAI": "Garbage/Waste",
+    "categoryFinal": "Garbage/Waste",
+    "summary": "10-day garbage collection suspension in Marathahalli 7th sector causing overflow and road contamination.",
+    "location": { "lat": 12.9554, "lng": 77.7004, "address": "Marathahalli 7th Sector, Bangalore" },
+    "status": "Submitted",
+    "assignee": null,
+    "priority": {
+      "score": 22,
+      "label": "Low",
+      "factors": [
+        { "name": "Safety Risk", "contribution": 0, "description": "No immediate hazard" },
+        { "name": "Category Severity", "contribution": 8, "description": "Garbage/Waste severity" },
+        { "name": "Duplicate Reports", "contribution": 0, "description": "No duplicates" },
+        { "name": "Hotspot Cluster", "contribution": 0, "description": "Not in hotspot" },
+        { "name": "Report Age", "contribution": 14, "description": "14 days" }
+      ]
+    },
+    "ai": { "source": "fallback", "safetyFlag": false, "confidence": 0.68, "reasonText": "Garbage keywords" },
+    "duplicate": { "isDuplicate": false, "parentId": null, "similarity": 0, "reason": "" },
+    "clusterId": null,
+    "isSeed": true
+  },
+  {
+    "reportId": "CF-1029",
+    "title": "Electric pole tilting dangerously in Hebbal",
+    "text": "An electric pole near Hebbal flyover is tilting at a 45 degree angle. It could fall on the road or on passing vehicles any moment. The base has rotted. This is a very dangerous situation and BESCOM needs to act now.",
+    "categoryUser": "Electricity/Power",
+    "categoryAI": "Public Safety Hazard",
+    "categoryFinal": "Public Safety Hazard",
+    "summary": "Severely tilted electric pole at Hebbal flyover with rotted base at imminent risk of falling on road traffic.",
+    "location": { "lat": 13.0358, "lng": 77.5970, "address": "Near Hebbal Flyover, Bangalore" },
+    "status": "Submitted",
+    "assignee": null,
+    "priority": {
+      "score": 76,
+      "label": "Critical",
+      "factors": [
+        { "name": "Safety Risk", "contribution": 35, "description": "Imminent pole collapse hazard" },
+        { "name": "Category Severity", "contribution": 25, "description": "Public Safety Hazard severity" },
+        { "name": "Duplicate Reports", "contribution": 0, "description": "No duplicates" },
+        { "name": "Hotspot Cluster", "contribution": 0, "description": "Not in hotspot" },
+        { "name": "Report Age", "contribution": 7, "description": "7 days unresolved" }
+      ]
+    },
+    "ai": { "source": "gemini", "safetyFlag": true, "confidence": 0.96, "reasonText": "Critical infrastructure collapse risk" },
+    "duplicate": { "isDuplicate": false, "parentId": null, "similarity": 0, "reason": "" },
+    "clusterId": null,
+    "isSeed": true
+  },
+  {
+    "reportId": "CF-1030",
+    "title": "Streetlight broken near RMV 2nd stage",
+    "text": "The street light near RMV 2nd stage main road junction has not been working for 3 weeks. The area is very dark at night. Many mugging incidents have occurred near this spot. Please repair urgently.",
+    "categoryUser": "Streetlight",
+    "categoryAI": "Streetlight",
+    "categoryFinal": "Streetlight",
+    "summary": "Three-week streetlight outage near RMV 2nd Stage junction. Multiple mugging incidents reported in the resulting darkness.",
+    "location": { "lat": 13.0091, "lng": 77.5864, "address": "RMV 2nd Stage, Main Road Junction, Bangalore" },
+    "status": "Submitted",
+    "assignee": null,
+    "priority": {
+      "score": 50,
+      "label": "Medium",
+      "factors": [
+        { "name": "Safety Risk", "contribution": 35, "description": "Crime - muggings in dark area" },
+        { "name": "Category Severity", "contribution": 10, "description": "Streetlight severity" },
+        { "name": "Duplicate Reports", "contribution": 0, "description": "No duplicates" },
+        { "name": "Hotspot Cluster", "contribution": 0, "description": "Not in hotspot" },
+        { "name": "Report Age", "contribution": 5, "description": "5 days" }
+      ]
+    },
+    "ai": { "source": "gemini", "safetyFlag": true, "confidence": 0.90, "reasonText": "Safety risk - crime occurring in dark" },
+    "duplicate": { "isDuplicate": false, "parentId": null, "similarity": 0, "reason": "" },
+    "clusterId": null,
+    "isSeed": true
+  },
+  {
+    "reportId": "CF-1031",
+    "title": "Deep crater on MG Road causing traffic issues",
+    "text": "There is a very deep crater on MG Road near the Cauvery theatre area. The road has sunken completely and water collects in it. This stretch is causing severe traffic congestion and vehicle damage. Need immediate repair.",
+    "categoryUser": "Road Damage",
+    "categoryAI": "Road Damage",
+    "categoryFinal": "Road Damage",
+    "summary": "Large sunken road crater on MG Road near Cauvery Theatre collecting water and causing traffic congestion and vehicle damage.",
+    "location": { "lat": 12.9755, "lng": 77.6085, "address": "MG Road, near Cauvery Theatre, Bangalore" },
+    "status": "Submitted",
+    "assignee": null,
+    "priority": {
+      "score": 58,
+      "label": "High",
+      "factors": [
+        { "name": "Safety Risk", "contribution": 15, "description": "Vehicle damage risk" },
+        { "name": "Category Severity", "contribution": 14, "description": "Road Damage severity" },
+        { "name": "Duplicate Reports", "contribution": 9, "description": "Multiple MG Road complaints" },
+        { "name": "Hotspot Cluster", "contribution": 10, "description": "MG Road hotspot" },
+        { "name": "Report Age", "contribution": 10, "description": "10 days" }
+      ]
+    },
+    "ai": { "source": "gemini", "safetyFlag": false, "confidence": 0.91, "reasonText": "Road surface failure on major artery" },
+    "duplicate": { "isDuplicate": true, "parentId": "CF-1001", "similarity": 0.66, "reason": "Similar MG Road pothole report within 100m" },
+    "clusterId": "CLU-001",
+    "isSeed": true
+  },
+  {
+    "reportId": "CF-1032",
+    "title": "Water logging on Koramangala 3rd block",
+    "text": "The 3rd block Koramangala roads are flooded every single time it rains. The area has poor drainage infrastructure. Water remains for 2-3 days after rain. This is a systemic problem that needs a permanent solution.",
+    "categoryUser": "Waterlogging/Drainage",
+    "categoryAI": "Waterlogging/Drainage",
+    "categoryFinal": "Waterlogging/Drainage",
+    "summary": "Chronic waterlogging in Koramangala 3rd block lasting 2-3 days after rain. Systemic drainage infrastructure failure requires permanent solution.",
+    "location": { "lat": 12.9337, "lng": 77.6255, "address": "3rd Block, Koramangala, Bangalore" },
+    "status": "Reviewed",
+    "assignee": null,
+    "priority": {
+      "score": 53,
+      "label": "Medium",
+      "factors": [
+        { "name": "Safety Risk", "contribution": 0, "description": "No immediate hazard" },
+        { "name": "Category Severity", "contribution": 18, "description": "Waterlogging severity" },
+        { "name": "Duplicate Reports", "contribution": 9, "description": "Koramangala waterlogging cluster" },
+        { "name": "Hotspot Cluster", "contribution": 10, "description": "Part of Koramangala hotspot" },
+        { "name": "Report Age", "contribution": 6, "description": "6 days" }
+      ]
+    },
+    "ai": { "source": "gemini", "safetyFlag": false, "confidence": 0.90, "reasonText": "Recurring drainage failure" },
+    "duplicate": { "isDuplicate": true, "parentId": "CF-1004", "similarity": 0.71, "reason": "Same Koramangala waterlogging cluster within 130m" },
+    "clusterId": "CLU-002",
+    "isSeed": true
+  },
+  {
+    "reportId": "CF-1033",
+    "title": "Garbage burning on Nagarbhavi road",
+    "text": "People are burning garbage on the road near Nagarbhavi circle. The smoke is causing breathing problems for residents. Children with asthma are badly affected. BBMP must stop this and collect the garbage properly.",
+    "categoryUser": "Garbage/Waste",
+    "categoryAI": "Garbage/Waste",
+    "categoryFinal": "Garbage/Waste",
+    "summary": "Garbage burning near Nagarbhavi Circle causing respiratory health issues. Asthma patients and children particularly affected.",
+    "location": { "lat": 12.9614, "lng": 77.5023, "address": "Nagarbhavi Circle, Bangalore" },
+    "status": "Submitted",
+    "assignee": null,
+    "priority": {
+      "score": 22,
+      "label": "Low",
+      "factors": [
+        { "name": "Safety Risk", "contribution": 0, "description": "Health risk but not immediate physical danger" },
+        { "name": "Category Severity", "contribution": 8, "description": "Garbage/Waste severity" },
+        { "name": "Duplicate Reports", "contribution": 0, "description": "No duplicates" },
+        { "name": "Hotspot Cluster", "contribution": 0, "description": "Not in hotspot" },
+        { "name": "Report Age", "contribution": 14, "description": "14 days" }
+      ]
+    },
+    "ai": { "source": "fallback", "safetyFlag": false, "confidence": 0.67, "reasonText": "Garbage keyword match" },
+    "duplicate": { "isDuplicate": false, "parentId": null, "similarity": 0, "reason": "" },
+    "clusterId": null,
+    "isSeed": true
+  },
+  {
+    "reportId": "CF-1034",
+    "title": "Road pothole on Hosur Road near silk board",
+    "text": "The service road on Hosur Road near Silk Board junction has a series of potholes in very bad condition. During peak hours there are major traffic jams because of this. Need urgent repair especially given the high traffic volume.",
+    "categoryUser": "Road Damage",
+    "categoryAI": "Road Damage",
+    "categoryFinal": "Road Damage",
+    "summary": "Multiple potholes on Hosur Road service road near Silk Board causing peak-hour traffic disruption on high-volume route.",
+    "location": { "lat": 12.9178, "lng": 77.6228, "address": "Hosur Road, Silk Board Junction, Bangalore" },
+    "status": "Submitted",
+    "assignee": null,
+    "priority": {
+      "score": 38,
+      "label": "Medium",
+      "factors": [
+        { "name": "Safety Risk", "contribution": 15, "description": "Traffic disruption risk" },
+        { "name": "Category Severity", "contribution": 14, "description": "Road Damage severity" },
+        { "name": "Duplicate Reports", "contribution": 0, "description": "No duplicates" },
+        { "name": "Hotspot Cluster", "contribution": 0, "description": "Not in hotspot" },
+        { "name": "Report Age", "contribution": 9, "description": "9 days" }
+      ]
+    },
+    "ai": { "source": "gemini", "safetyFlag": false, "confidence": 0.88, "reasonText": "Road damage on major junction" },
+    "duplicate": { "isDuplicate": false, "parentId": null, "similarity": 0, "reason": "" },
+    "clusterId": null,
+    "isSeed": true
+  },
+  {
+    "reportId": "CF-1035",
+    "title": "No electricity in parts of Vijayanagar",
+    "text": "Several streets in Vijayanagar 4th stage have been without electricity for 4 days. Multiple transformers seem to have failed simultaneously. We are unable to work from home and perishable food is getting wasted. BESCOM is not responding.",
+    "categoryUser": "Electricity/Power",
+    "categoryAI": "Electricity/Power",
+    "categoryFinal": "Electricity/Power",
+    "summary": "4-day power outage affecting multiple streets in Vijayanagar 4th Stage due to multiple transformer failures. Work-from-home and food preservation affected.",
+    "location": { "lat": 12.9740, "lng": 77.5295, "address": "Vijayanagar 4th Stage, Bangalore" },
+    "status": "Submitted",
+    "assignee": null,
+    "priority": {
+      "score": 36,
+      "label": "Medium",
+      "factors": [
+        { "name": "Safety Risk", "contribution": 15, "description": "Extended power failure creating hazards" },
+        { "name": "Category Severity", "contribution": 12, "description": "Electricity/Power severity" },
+        { "name": "Duplicate Reports", "contribution": 0, "description": "No duplicates" },
+        { "name": "Hotspot Cluster", "contribution": 0, "description": "Not in hotspot" },
+        { "name": "Report Age", "contribution": 9, "description": "9 days" }
+      ]
+    },
+    "ai": { "source": "gemini", "safetyFlag": false, "confidence": 0.89, "reasonText": "Multi-day power outage" },
+    "duplicate": { "isDuplicate": false, "parentId": null, "similarity": 0, "reason": "" },
+    "clusterId": null,
+    "isSeed": true
+  }
+]
+
